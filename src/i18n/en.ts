@@ -1,0 +1,75 @@
+const en = {
+  tabs: {
+    today: 'Today',
+    stats: 'Stats',
+  },
+  home: {
+    title: 'Today',
+    allDone: '🎉 All done for today!',
+    progress: '{{done}} of {{total}} completed',
+    noHabits: {
+      title: 'No habits yet',
+      subtitle: 'Build better habits one day at a time.\nTap + to add your first one.',
+      button: 'Add habit',
+    },
+  },
+  stats: {
+    title: 'Statistics',
+    completion: 'Completion',
+    bestStreak: 'Best Streak',
+    totalDone: 'Total Done',
+    habits: 'Habits',
+    noHabits: 'Add habits to see your statistics here.',
+    last30Days: '{{rate}}% last 30 days',
+    best: 'Best: {{days}}d',
+  },
+  detail: {
+    everyDay: 'Every day',
+    currentStreak: 'Current Streak',
+    bestStreak: 'Best Streak',
+    completion: 'Completion',
+    thisWeek: 'This Week',
+    progressCalendar: 'Progress Calendar',
+    totalCompletions: 'Total completions',
+    delete: {
+      title: 'Delete Habit',
+      message: 'Delete "{{name}}"? This cannot be undone.',
+      cancel: 'Cancel',
+      confirm: 'Delete',
+    },
+  },
+  habit: {
+    newTitle: 'New Habit',
+    editTitle: 'Edit Habit',
+    tapToChangeEmoji: 'Tap to change emoji',
+    name: 'HABIT NAME',
+    namePlaceholder: 'e.g. Morning Run',
+    color: 'COLOR',
+    frequency: 'FREQUENCY',
+    everyDay: 'Every day',
+    specificDays: 'Specific days',
+    reminder: 'REMINDER (optional)',
+    reminderPlaceholder: 'HH:MM  (e.g. 08:00)',
+    streak: '{{count}} day streak',
+    create: 'Create Habit',
+    save: 'Save Changes',
+    cancel: 'Cancel',
+    alerts: {
+      missingName: 'Missing name',
+      missingNameMsg: 'Please enter a name for your habit.',
+      notificationsOff: 'Notifications off',
+      notificationsOffMsg: 'Enable notifications in settings to receive reminders.',
+    },
+  },
+  days: {
+    short: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] as string[],
+    abbrev: ['S', 'M', 'T', 'W', 'T', 'F', 'S'] as string[],
+  },
+  language: {
+    selectTitle: 'Language / Idioma',
+    en: 'English',
+    pt: 'Português',
+  },
+} as const;
+
+export default en;

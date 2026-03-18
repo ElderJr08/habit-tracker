@@ -1,0 +1,75 @@
+const pt = {
+  tabs: {
+    today: 'Hoje',
+    stats: 'Estatísticas',
+  },
+  home: {
+    title: 'Hoje',
+    allDone: '🎉 Tudo feito por hoje!',
+    progress: '{{done}} de {{total}} concluídos',
+    noHabits: {
+      title: 'Nenhum hábito ainda',
+      subtitle: 'Construa hábitos melhores um dia de cada vez.\nToque em + para adicionar o primeiro.',
+      button: 'Adicionar hábito',
+    },
+  },
+  stats: {
+    title: 'Estatísticas',
+    completion: 'Conclusão',
+    bestStreak: 'Melhor Sequência',
+    totalDone: 'Total Feito',
+    habits: 'Hábitos',
+    noHabits: 'Adicione hábitos para ver suas estatísticas aqui.',
+    last30Days: '{{rate}}% nos últimos 30 dias',
+    best: 'Melhor: {{days}}d',
+  },
+  detail: {
+    everyDay: 'Todos os dias',
+    currentStreak: 'Sequência Atual',
+    bestStreak: 'Melhor Sequência',
+    completion: 'Conclusão',
+    thisWeek: 'Esta Semana',
+    progressCalendar: 'Calendário de Progresso',
+    totalCompletions: 'Total de conclusões',
+    delete: {
+      title: 'Excluir Hábito',
+      message: 'Excluir "{{name}}"? Isso não pode ser desfeito.',
+      cancel: 'Cancelar',
+      confirm: 'Excluir',
+    },
+  },
+  habit: {
+    newTitle: 'Novo Hábito',
+    editTitle: 'Editar Hábito',
+    tapToChangeEmoji: 'Toque para mudar o emoji',
+    name: 'NOME DO HÁBITO',
+    namePlaceholder: 'ex: Corrida Matinal',
+    color: 'COR',
+    frequency: 'FREQUÊNCIA',
+    everyDay: 'Todos os dias',
+    specificDays: 'Dias específicos',
+    reminder: 'LEMBRETE (opcional)',
+    reminderPlaceholder: 'HH:MM  (ex: 08:00)',
+    streak: '{{count}} dias seguidos',
+    create: 'Criar Hábito',
+    save: 'Salvar Alterações',
+    cancel: 'Cancelar',
+    alerts: {
+      missingName: 'Nome obrigatório',
+      missingNameMsg: 'Por favor, insira um nome para o seu hábito.',
+      notificationsOff: 'Notificações desativadas',
+      notificationsOffMsg: 'Ative as notificações nas configurações para receber lembretes.',
+    },
+  },
+  days: {
+    short: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'] as string[],
+    abbrev: ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'] as string[],
+  },
+  language: {
+    selectTitle: 'Idioma / Language',
+    en: 'English',
+    pt: 'Português',
+  },
+} as const;
+
+export default pt;
